@@ -4,13 +4,12 @@ body {
     align-items: center;
     display: flex;
     background-color: #333;
-
-
+    align-content: center;
+    height: 100vh;
+    margin: 0px;
 }
 
 .calculator {
-
-
     padding: 20px;
     background-color: silver
 }
@@ -20,9 +19,6 @@ input[type=number] {
     height: 40px;
     font-size: 20px;
     background-color: rgb(245, 245, 237);
-
-
-
 }
 
 input[type=button] {
@@ -31,8 +27,6 @@ input[type=button] {
     padding: 5px;
     font-size: 18px;
     border-radius: 100px;
-
-
 }
 
 .content {
@@ -41,17 +35,18 @@ input[type=button] {
 
 .button {
     padding-top: 15px;
-    
-
 }
 
 .one {
     padding: 5px;
-
 }
 
 .two {
     padding: 5px;
     padding-bottom: 20px;
+}
 
+.head-1 {
+    text-align: center;
+    color: rgb(60, 8, 109);
 }

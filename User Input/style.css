@@ -1,51 +1,71 @@
 * {
     margin: 0;
-    padding: 0;
-}
-
-.body-container {
-    background-color: rgba(0, 0, 0, 0.603);
-    height: 100vh;
-    /* width: 50%;
-    justify-content: center; */
 
 }
 
-/* .container {
-    background-color: rgba(155, 172, 158, 0.404);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+
     height: 100vh;
+    margin: 0px;
+}
 
-
-} */
-
-
+.logo-1 img {
+    width: 100px;
+    border-radius: 50px;
+}
 
 .head-1 {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 40px;
-    
-   margin: 10px;
-}
-
-img {
-    width: 80px;
-    border-radius: 50px;
-    
-   margin: 10px;
-}
-.container {
     display: flex;
-
     align-items: center;
-    align-content: center;
-    background-color:rgba(0, 225, 255, 0.582);
-   justify-content: space-between;
+    justify-content: space-around;
 
+}
+
+.logo-2 {
+    font-size: 40px;
+
+
+}
+
+.logo-3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.all-container {
+    border: 4px solid rgb(25, 10, 100);
+    padding: 10px;
+    height: 100vh;
+}
+
+.container-2 {
+    padding-top: 30px;
+}
+
+.inputs input[type=text] {
+    width: 32%;
+    height: 40px;
+
+}
+
+.inputs {
+    padding-top: 20px;
+
+}
+
+input[placeholder] {
+    font-size: 18px;
+}
+
+.inputs1 input {
+    width: 45%;
+    height: 40px;
+    
+}
+.inputs1{
+    padding-top: 20px;
 }
